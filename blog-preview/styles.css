@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--White);
-    width: 310px;
+    width: 300px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 20px;
@@ -41,7 +41,7 @@ body {
 
 .img-MainContain {
     border-radius: 10px;
-    width: 310px;
+    width: 300px;
 }
 
 .topic {
@@ -58,10 +58,6 @@ body {
     font-weight: var(--font-weight-800);
     font-size: 20px;
     margin: 20px 0 20px 0;
-}
-.main-topic:hover{
-    color: var(--Yellow);
-    cursor: pointer;
 }
 
 .text-contain{
