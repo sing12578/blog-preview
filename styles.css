@@ -10,12 +10,71 @@
 
 @font-face {
     font-family: "Figtree";
-    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Figtree", sans-serif;
+}
+
+.card-container {
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.img-MainContain {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.topic {
+    background-color: var(--Yellow);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: var(--font-weight-500);
+    /* margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px; */
+    margin: 20px auto 10px 0; 
+}
+.main-topic {
+    font-weight: var(--font-weight-800);
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.text-contain{
+    color: var(--Gray-500);
+    margin-bottom: 20px;
+}
+
+.personnal-container {
+    display: flex;
+    align-items: center;
+}
+
+.personnal-container img{
+    width: 40px;
+}
+
+.personnal-container div{
+    font-weight: var(--font-weight-500);
+    padding-left: 10px;
 }
